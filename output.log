@@ -1,0 +1,31 @@
+No changes detected
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, menu, sessions
+Running migrations:
+  No migrations to apply.
+Watching for file changes with StatReloader
+[13/Nov/2025 00:37:57] "GET / HTTP/1.1" 200 715
+C:\Users\User\Desktop\projects\traderUp\apps\menu\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 13, 2025 - 00:37:47
+Django version 5.2.8, using settings 'traderUp.settings'
+Starting development server at http://localhost:3000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\projects\traderUp\apps\menu\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 13, 2025 - 00:45:18
+Django version 5.2.8, using settings 'traderUp.settings'
+Starting development server at http://localhost:3000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader

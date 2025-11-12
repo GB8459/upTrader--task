@@ -1,0 +1,10 @@
+<li>
+    {{ item.title }}
+    {% if item.children.exists %}
+        <ul class="children">
+        {% for child in item.children.all %}
+            {% include "menu/menu_item.html" with item=child %}
+        {% endfor %}
+        </ul>
+    {% endif %}
+</li>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Меню</title>
+    <style>
+        ul { list-style: none; padding-left: 20px; }
+        li { cursor: pointer; }
+        .children { display: none; margin-left: 15px; }
+        .expanded > .children { display: block; }
+    </style>
+</head>
+<body>
+<h1>Меню</h1>
+
+<ul id="menu">
+{% for item in menu_items %}
+    {% include "menu/menu_item.html" with item=item %}
+{% endfor %}
+</ul>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('#menu li').forEach(function(li) {
+        li.addEventListener('click', function(e) {
+            e.stopPropagation(); // чтобы родительские li не срабатывали
+            this.classList.toggle('expanded');
+        });
+    });
+});
+</script>
+</body>
+</html>
